@@ -19,5 +19,13 @@ public class Cat extends Animal{
     public Cat(Boolean vegetarian, String eats, int noOfLegs) {
         super(vegetarian, eats, noOfLegs);
         this.color = "White";
+
     }
+
+    @Override
+    public int getNoOfLegs() {
+        return super.getNoOfLegs()+10;
+    }
+
+
 }

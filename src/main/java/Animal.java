@@ -3,6 +3,10 @@ public class Animal {
     private String eats;
     private int noOfLegs;
 
+    public static void print(){
+        System.out.println("tttttt");
+    }
+
     //Конструктор, принимает все параметры полей
     public Animal(Boolean vegetarian, String eats, int noOfLegs) {
         this.vegetarian = vegetarian;

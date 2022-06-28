@@ -10,7 +10,10 @@ public class HomeWork4DOG {
         System.out.println(c.getEats());
         c.setColor("WHite1");
         System.out.println(c.getColor());
-        Animal animal = new Cat()
+        Animal animal = new Cat(true, "food", 7);
+        Cat.print();
+
+
 
 
 
